@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "youtube-video-downloader"
+version = "0.1.0"
+description = ""
+authors = ["Vital Kudzelka <vital.kudzelka@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+yt-dlp = "^2023.9.24"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
